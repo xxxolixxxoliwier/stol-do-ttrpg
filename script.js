@@ -51,7 +51,6 @@ const przyciskK4 = document.getElementById("rzut-k4");
 const przyciskK8 = document.getElementById("rzut-k8");
 
 const przyciskK12 = document.getElementById("rzut-k12");
-
 function rollDice(sides) {
   return Math.floor(Math.random() * sides) + 1;
 }
@@ -60,6 +59,7 @@ przyciskK6.addEventListener("click", function() {
   const wynik = rollDice(6);
   wynikKosci.textContent = wynik;
 });
+
 
 przyciskK20.addEventListener("click", function() {
   const wynik = rollDice(20);
